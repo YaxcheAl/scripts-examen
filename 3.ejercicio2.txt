@@ -1,0 +1,14 @@
+sudo mkdir ../alum1 ../alum2 ../usuadm
+sudo su - alum1
+cd /home/alum1
+touch listado.txt prueba.txt
+exit
+sudo su - alum2
+cd /home/alum2
+touch docum.txt
+exit 
+sudo su - usuadm
+touch notas.txt
+mkdir compartir
+touch compartir/ejercicios.txt
+exit
